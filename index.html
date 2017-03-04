@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
 
-   <title>Gify in the rough</title>
+   <title>NYT Article Search</title>
 	<link rel="stylesheet" type="text/css" href="reset.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -37,7 +37,7 @@
 		<!-- api call limit -->
 			<div class="col-sm-12">
 				<label for="numRec">Number of Records:</label>
-				<select class="form-control">
+				<select class="form-control" id="numRec">
 		  			<option value="10">10</option>
 		  			<option value="6">6</option>
 					<option value="3">3</option>
@@ -57,7 +57,7 @@
 		<div class="row">
 		<!-- end year - optional -->
 			<div class="col-sm-12">
-				<label for="endYear">End Year:</label>
+				<label for="endYear">End Year (optional):</label>
 				<input type="text" class="form-control" id="endYear">
 			</div>
 		</div>

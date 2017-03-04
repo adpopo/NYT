@@ -1,0 +1,16 @@
+.articleBox{
+	color: #FFF;
+	background-color: #FF4242;
+	padding: 5px;
+}
+
+.article{
+	color: #FF4242;
+	background-color: #F0F2EB;
+	padding: 5px;
+	margin: 10px;
+}
+
+#articles{
+	background-color: #F2F4FD;
+}
